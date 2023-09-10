@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*:root{
+    --background: azure;
+    --in-background: beige;
+    --box-shadow:0 5px 10px rgba(0,0,0,.15);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color:var(--background);
+    border: none;
+    outline: none;
+}
+
+.signbox{
+    margin-top: 80px;   
+    margin-left: 0;
+    margin-right: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.signbox .fombox{
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    background-color:var(--in-background);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    /* border: solid; */
+     
+}
+
+.inputbox{
+    padding: 10px;
+    height: 30px;
+    padding-right: 0;
+
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    border: none;
+    box-shadow: black 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow);
+    
+   
+}
+ 
+ 
+
+.fombox .signhead{
+    font-size: 30px;  
+    text-transform: uppercase;
+    background-color:var(--in-background);
+}
+
+.pp1{
+    margin-top: 10px;
+    background-color:var(--in-background);
+}
+
+.atag{
+    background-color:var(--in-background);
+
+}
+
+.atag:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    box-shadow: var(--box-shadow);
+}
